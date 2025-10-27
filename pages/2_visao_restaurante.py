@@ -9,7 +9,7 @@ from streamlit_folium import folium_static
 import plotly.graph_objects as go
 import numpy as np
 
-df = pd.read_csv('train.csv')
+df = pd.read_csv('../dataset/train.csv')
 df1 = df.copy()
 
 #tirando valores nan
